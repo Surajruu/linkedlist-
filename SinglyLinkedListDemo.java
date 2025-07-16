@@ -43,13 +43,16 @@ public class SinglyLinkedListDemo {
         }
     }
 
-    // Main method to run the program
+    
     public static void main(String[] args) {
         SinglyLinkedList list = new SinglyLinkedList();
 
         list.insertAtEnd(10);
+        
         list.insertAtEnd(20);
+        
         list.insertAtEnd(30);
+        
         list.insertAtEnd(40);
 
         System.out.println("Singly Linked List:");
